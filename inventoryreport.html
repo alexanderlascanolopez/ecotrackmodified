@@ -1,0 +1,1148 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, user-scalable=0"
+    />
+    <meta name="description" content="POS - Bootstrap Admin Template" />
+    <meta
+      name="keywords"
+      content="admin, estimates, bootstrap, business, corporate, creative, invoice, html5, responsive, Projects"
+    />
+    <meta name="author" content="Dreamguys - Bootstrap Admin Template" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Eco-Track | Inventory Report</title>
+
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="assets/img/favicon.jpg"
+    />
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="assets/css/animate.css" />
+
+    <link rel="stylesheet" href="assets/plugins/select2/css/select2.min.css" />
+
+    <link rel="stylesheet" href="assets/css/bootstrap-datetimepicker.min.css" />
+
+    <link rel="stylesheet" href="assets/css/dataTables.bootstrap4.min.css" />
+
+    <link
+      rel="stylesheet"
+      href="assets/plugins/fontawesome/css/fontawesome.min.css"
+    />
+    <link rel="stylesheet" href="assets/plugins/fontawesome/css/all.min.css" />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <div id="global-loader">
+      <div class="whirly-loader"></div>
+    </div>
+
+    <div class="main-wrapper">
+      <div class="header">
+        <div class="header-left active">
+          <a href="index.html" class="logo">
+            <h1>Eco-Track</h1>
+          </a>
+          <a href="index.html" class="logo-small">
+            <img src="assets/img/logo-small.png" alt="" />
+          </a>
+        </div>
+
+        <a id="mobile_btn" class="mobile_btn" href="#sidebar">
+          <span class="bar-icon">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </a>
+
+        <ul class="nav user-menu">
+          <li class="nav-item">
+            <div class="top-nav-search">
+              <a href="javascript:void(0);" class="responsive-search">
+                <i class="fa fa-search"></i>
+              </a>
+              <form action="#">
+                <div class="searchinputs">
+                  <input type="text" placeholder="Search Here ..." />
+                  <div class="search-addon">
+                    <span
+                      ><img src="assets/img/icons/closes.svg" alt="img"
+                    /></span>
+                  </div>
+                </div>
+                <a class="btn" id="searchdiv"
+                  ><img src="assets/img/icons/search.svg" alt="img"
+                /></a>
+              </form>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a
+              href="javascript:void(0);"
+              class="dropdown-toggle nav-link"
+              data-bs-toggle="dropdown"
+            >
+              <img src="assets/img/icons/notification-bing.svg" alt="img" />
+              <span class="badge rounded-pill">4</span>
+            </a>
+            <div class="dropdown-menu notifications">
+              <div class="topnav-dropdown-header">
+                <span class="notification-title">Notifications</span>
+                <a href="javascript:void(0)" class="clear-noti"> Clear All </a>
+              </div>
+              <div class="noti-content">
+                <ul class="notification-list">
+                  <li class="notification-message">
+                    <a href="activities.html">
+                      <div class="media d-flex">
+                        <div class="media-body flex-grow-1">
+                          <p class="noti-details">
+                            Items
+                            <span class="noti-title">low stock seedlings</span>
+                          </p>
+                          <p class="noti-time">
+                            <span class="notification-time">4 mins ago</span>
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="notification-message">
+                    <a href="activities.html">
+                      <div class="media d-flex">
+                        <div class="media-body flex-grow-1">
+                          <p class="noti-details">
+                            Items
+                            <span class="noti-title">low stock materials</span>
+                          </p>
+                          <p class="noti-time">
+                            <span class="notification-time">6 mins ago</span>
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="notification-message">
+                    <a href="activities.html">
+                      <div class="media d-flex">
+                        <div class="media-body flex-grow-1">
+                          <p class="noti-details">
+                            Items
+                            <span class="noti-title">low stock supplies</span>
+                          </p>
+                          <p class="noti-time">
+                            <span class="notification-time">8 mins ago</span>
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="notification-message">
+                    <a href="activities.html">
+                      <div class="media d-flex">
+                        <div class="media-body flex-grow-1">
+                          <p class="noti-details">
+                            Items
+                            <span class="noti-title"
+                              >low stock monitoring devices</span
+                            >
+                          </p>
+                          <p class="noti-time">
+                            <span class="notification-time">8 mins ago</span>
+                          </p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div class="topnav-dropdown-footer">
+                <a href="activities.html">View all Notifications</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item dropdown has-arrow main-drop">
+            <a
+              href="javascript:void(0);"
+              class="dropdown-toggle nav-link userset"
+              data-bs-toggle="dropdown"
+            >
+              <span class="user-img"
+                ><img src="assets/img/nature.jpg" alt="" />
+                <span class="status online"></span
+              ></span>
+            </a>
+            <div class="dropdown-menu menu-drop-user">
+              <div class="profilename">
+                <div class="profileset">
+                  <span class="user-img"
+                    ><img src="assets/img/profiles/avator1.jpg" alt="" />
+                    <span class="status online"></span
+                  ></span>
+                  <div class="profilesets">
+                    <h6>John</h6>
+                    <h5>Admin</h5>
+                  </div>
+                </div>
+                <hr class="m-0" />
+                <a class="dropdown-item" href="profile.html">
+                  <i class="me-2" data-feather="user"></i> My Profile</a
+                >
+                <a class="dropdown-item" href="settings.html"
+                  ><i class="me-2" data-feather="settings"></i>Settings</a
+                >
+                <hr class="m-0" />
+                <button class="dropdown-item logout pb-0" onclick="signOut()"
+                  ><img
+                    src="assets/img/icons/log-out.svg"
+                    class="me-2"
+                    alt="img"
+                  />Logout</button>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <div class="dropdown mobile-user-menu">
+          <a
+            href="javascript:void(0);"
+            class="nav-link dropdown-toggle"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+            ><i class="fa fa-ellipsis-v"></i
+          ></a>
+          <div class="dropdown-menu dropdown-menu-right">
+            <a class="dropdown-item" href="profile.html">My Profile</a>
+            <a class="dropdown-item" href="settings.html">Settings</a>
+            <a class="dropdown-item" href="signin.html">Logout</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="sidebar" id="sidebar">
+        <div class="sidebar-inner slimscroll">
+          <div id="sidebar-menu" class="sidebar-menu">
+            <ul>
+              <li>
+                <a href="index.html"
+                  ><img src="assets/img/icons/dashboard.svg" alt="img" /><span>
+                    Dashboard</span
+                  >
+                </a>
+              </li>
+              <li class="submenu">
+                <a href="javascript:void(0);"
+                  ><img src="assets/img/icons/product.svg" alt="img" /><span>
+                    Item</span
+                  >
+                  <span class="menu-arrow"></span
+                ></a>
+                <ul>
+                  <li><a href="itemlist.html">Item List</a></li>
+                  <li><a href="additem.html">Add Item</a></li>
+                  <li><a href="categorylist.html">Category List</a></li>
+                  <li><a href="addcategory.html">Add Category</a></li>
+                </ul>
+              </li>
+              <li class="submenu">
+                <a href="javascript:void(0);"
+                  ><img src="assets/img/icons/transfer1.svg" alt="img" /><span>
+                    Issued Item</span
+                  >
+                  <span class="menu-arrow"></span
+                ></a>
+                <ul>
+                  <li><a href="issueditem.html">Manage</a></li>
+                  <li><a href="addissueditem.html">Add</a></li>
+                </ul>
+              </li>
+              <li class="submenu">
+                <a href="javascript:void(0);"
+                  ><img src="assets/img/icons/return1.svg" alt="img" /><span>
+                    Returned Issued Item</span
+                  >
+                  <span class="menu-arrow"></span
+                ></a>
+                <ul>
+                  <li><a href="returnedissueditem.html">Manage</a></li>
+                  <li><a href="addreturnedissueditem.html">Add</a></li>
+                </ul>
+              </li>
+              <li class="submenu">
+                <a href="javascript:void(0);"
+                  ><img src="assets/img/icons/time.svg" alt="img" /><span>
+                    Report</span
+                  >
+                  <span class="menu-arrow"></span
+                ></a>
+                <ul>
+                  <li><a href="inventoryreport.html" class="active">Inventory Report</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-wrapper">
+        <div class="content">
+          <div class="page-header">
+            <div class="page-title">
+              <h4>Inventory Report</h4>
+              <h6>Manage your inventory report</h6>
+            </div>
+            
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <div class="table-top">
+                <div class="search-set">
+                  <div class="search-input">
+                    <a class="btn btn-searchset">
+                      <img src="assets/img/icons/search-white.svg" alt="img" />
+                    </a>
+                  </div>
+                </div>
+                <div class="wordset">
+                  <ul>
+                    <li>
+                      <a
+                        data-bs-toggle="tooltip"
+                        data-bs-placement="top"
+                        title="export to excel"
+                        onclick="exportToExcel()"
+                        ><img src="assets/img/icons/excel.svg" alt="img"
+                      /></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="table-responsive">
+                <table class="table datanew" id="table">
+                  <thead>
+                    <tr>
+                      <th>
+                        <label class="checkboxs">
+                          <input type="checkbox" />
+                          <span class="checkmarks"></span>
+                        </label>
+                      </th>
+                      <th>Item ID</th>
+                      <th>Item name</th>
+                      <th>Category</th>
+                      <th>Brand</th>
+                      <th>No. of consumed</th>
+                      <th>Instock quantity</th>
+                      <th class="no-export">Action</th>
+                    </tr>
+                  </thead>
+                  <tbody id="inventoryreport-table-body">
+
+                  </tbody>
+                </table>
+                
+                
+              </div>
+
+              <div
+                class="modal fade"
+                id="userModal"
+                tabindex="-1"
+                aria-labelledby="userModalLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog modal-xl modal-dialog-centered">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="userModalLabel">
+                        Edit task
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+
+                    <div class="modal-body">
+                      <!-- Your form inside the modal -->
+                      <form id="userForm" enctype="multipart/form-data">
+                        <div class="row">
+                          <div class="col-lg-4 col-sm-6 col-12">
+                            <div class="form-group">
+                              <label>Workers</label>
+                              <input type="text" id="workers" class="form-control" placeholder="Enter worker's name(s)" />
+                            </div>
+                          </div>
+                          <div class="col-lg-4 col-sm-6 col-12">
+                            <div class="form-group">
+                              <label>Date</label>
+                              <input type="date" id="date" class="form-control" />
+                            </div>
+                          </div>
+                          <div class="col-lg-4 col-sm-6 col-12">
+                            <div class="form-group">
+                              <label>Title of Work</label>
+                              <input type="text" id="title_of_work" class="form-control" placeholder="Enter title of work" />
+                            </div>
+                          </div>
+                          <div class="col-lg-4 col-sm-6 col-12">
+                            <div class="form-group">
+                              <label>Status</label>
+                              <select id="status" class="form-control">
+                                <option value="pending">Pending</option>
+                                <option value="in progress">In Progress</option>
+                                <option value="completed">Completed</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="col-lg-8 col-sm-12 col-12">
+                            <div class="form-group">
+                              <label>Description</label>
+                              <textarea id="description" class="form-control" rows="4" placeholder="Enter description of the work"></textarea>
+                            </div>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+
+                    <div class="modal-footer">
+                      <button
+                        type="submit"
+                        class="btn btn-submit"
+                        form="userForm"
+                      >
+                        Submit
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Cancel
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="showpayment"
+      tabindex="-1"
+      aria-labelledby="showpayment"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Show Payments</h5>
+            <button
+              type="button"
+              class="close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="table-responsive">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th>Date</th>
+                    <th>Reference</th>
+                    <th>Amount</th>
+                    <th>Paid By</th>
+                    <th>Paid By</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="bor-b1">
+                    <td>2022-03-07</td>
+                    <td>INV/SL0101</td>
+                    <td>$ 1500.00</td>
+                    <td>Cash</td>
+                    <td>
+                      <a class="me-2" href="javascript:void(0);">
+                        <img src="assets/img/icons/printer.svg" alt="img" />
+                      </a>
+                      <a
+                        class="me-2"
+                        href="javascript:void(0);"
+                        data-bs-target="#editpayment"
+                        data-bs-toggle="modal"
+                        data-bs-dismiss="modal"
+                      >
+                        <img src="assets/img/icons/edit.svg" alt="img" />
+                      </a>
+                      <a class="me-2 confirm-text" href="javascript:void(0);">
+                        <img src="assets/img/icons/delete.svg" alt="img" />
+                      </a>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="createpayment"
+      tabindex="-1"
+      aria-labelledby="createpayment"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Create Payment</h5>
+            <button
+              type="button"
+              class="close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-sm-12 col-12">
+                <div class="form-group">
+                  <label>Customer</label>
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      value="2022-03-07"
+                      class="datetimepicker"
+                    />
+                    <a class="scanner-set input-group-text">
+                      <img src="assets/img/icons/datepicker.svg" alt="img" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-sm-12 col-12">
+                <div class="form-group">
+                  <label>Reference</label>
+                  <input type="text" value="INV/SL0101" />
+                </div>
+              </div>
+              <div class="col-lg-6 col-sm-12 col-12">
+                <div class="form-group">
+                  <label>Received Amount</label>
+                  <input type="text" value="1500.00" />
+                </div>
+              </div>
+              <div class="col-lg-6 col-sm-12 col-12">
+                <div class="form-group">
+                  <label>Paying Amount</label>
+                  <input type="text" value="1500.00" />
+                </div>
+              </div>
+              <div class="col-lg-6 col-sm-12 col-12">
+                <div class="form-group">
+                  <label>Payment type</label>
+                  <select class="select">
+                    <option>Cash</option>
+                    <option>Online</option>
+                    <option>Inprogress</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="form-group">
+                  <label>Note</label>
+                  <textarea class="form-control"></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-submit">Submit</button>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="modal fade"
+      id="editpayment"
+      tabindex="-1"
+      aria-labelledby="editpayment"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Edit Payment</h5>
+            <button
+              type="button"
+              class="close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-lg-6 col-sm-12 col-12">
+                <div class="form-group">
+                  <label>Customer</label>
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      value="2022-03-07"
+                      class="datetimepicker"
+                    />
+                    <a class="scanner-set input-group-text">
+                      <img src="assets/img/icons/datepicker.svg" alt="img" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-sm-12 col-12">
+                <div class="form-group">
+                  <label>Reference</label>
+                  <input type="text" value="INV/SL0101" />
+                </div>
+              </div>
+              <div class="col-lg-6 col-sm-12 col-12">
+                <div class="form-group">
+                  <label>Received Amount</label>
+                  <input type="text" value="1500.00" />
+                </div>
+              </div>
+              <div class="col-lg-6 col-sm-12 col-12">
+                <div class="form-group">
+                  <label>Paying Amount</label>
+                  <input type="text" value="1500.00" />
+                </div>
+              </div>
+              <div class="col-lg-6 col-sm-12 col-12">
+                <div class="form-group">
+                  <label>Payment type</label>
+                  <select class="select">
+                    <option>Cash</option>
+                    <option>Online</option>
+                    <option>Inprogress</option>
+                  </select>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="form-group">
+                  <label>Note</label>
+                  <textarea class="form-control"></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-submit">Submit</button>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+
+    <!-- <script>
+      function exportToExcel() {
+        const table = document.getElementById("table");
+        const rows = Array.from(table.rows);
+        const exportData = [];
+
+        rows.forEach((row) => {
+          const rowData = [];
+          Array.from(row.cells).forEach((cell) => {
+            if (!cell.classList.contains("no-export")) {
+              rowData.push(cell.innerText);
+            }
+          });
+          exportData.push(rowData);
+        });
+
+        // Convert to worksheet and export
+        const worksheet = XLSX.utils.aoa_to_sheet(exportData);
+        const workbook = XLSX.utils.book_new();
+        XLSX.utils.book_append_sheet(workbook, worksheet, "Sheet1");
+        XLSX.writeFile(workbook, "task_table.xlsx");
+      }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script> -->
+
+    <!-- <script>
+      const supabaseUrl = 'https://uihmonfrphwsvfljjfzs.supabase.co'
+      const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVpaG1vbmZycGh3c3ZmbGpqZnpzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDc1NjA4NDMsImV4cCI6MjA2MzEzNjg0M30.dbHGgky31kEEaowJEP8Xj_Krpa6a0t0gpKmWvKfLWKg';
+      const supabase = window.supabase.createClient(supabaseUrl, supabaseKey);
+
+      supabase.auth.getSession().then(({ data: { session } }) => {
+        if (session) {
+          console.log('User is signed in:', session.user.email);
+        } else {
+          console.log('No active session');
+          window.location.href = 'signIn.html';
+        }
+      });
+
+      async function fetchTask(id) {
+        const { data, error } = await supabase
+          .from("task")
+          .select("*")
+          .eq("id", id)
+          .single();
+
+        if (error) {
+          console.error("Error fetching task:", error.message);
+          return;
+        }
+
+        const modal = document.getElementById("userModal");
+
+        if (modal.style.display === "block"){
+
+          document.getElementById("workers").value = data.workers || "";
+          document.getElementById("date").value = data.date.split("T")[0] || "";
+          document.getElementById("title_of_work").value = data.title_of_work || "";
+          document.getElementById("status").value = data.status || "";
+          document.getElementById("description").value = data.description || "";
+        }
+
+        document
+          .getElementById("userForm")
+          .addEventListener("submit", async (e) => {
+            e.preventDefault(); 
+
+            const updatedData = {
+              workers: document.getElementById("workers").value,
+              date: document.getElementById("date").value,
+              title_of_work: document.getElementById("title_of_work").value,
+              status: document.getElementById("status").value,
+              description: document.getElementById("description").value,
+
+            };
+
+
+            const { error: updateError } = await supabase
+              .from("task")
+              .update(updatedData)
+              .eq("id", id);
+
+            if (updateError) {
+              console.error("Update failed:", updateError.message);
+              return;
+            }
+
+            alert("Task updated successfully!");
+            window.location.href = "taskManage.html";
+          });
+      }
+
+
+      async function deleteTask(id) {
+        const { error } = await supabase.from("task").delete().eq("id", id);
+
+        if (error) {
+          alert("Delete failed:", error.message);
+        } else {
+
+          alert("Task deleted");
+          window.location.href = "taskManage.html";
+        }
+      }
+
+      async function signOut() {
+        const { error } = await supabase.auth.signOut();
+        if (error) {
+          console.error('Sign out error:', error.message);
+          alert('Sign out failed: ' + error.message);
+        } else {
+          console.log('Signed out successfully');
+          window.location.href = 'signIn.html';
+        }
+      }
+    </script> -->
+
+    <!-- <script type="module">
+      import supabase from "./assets/js/supabase.js";
+
+      async function fetchGroupedItems() {
+        const { data, error } = await supabase
+          .from("Item")
+          .select("item_name, brand, category, quantity");
+
+        if (error) {
+          console.error("Fetch error:", error);
+          return;
+        }
+
+        // Group items by item_name + brand + category
+        const groupedItems = {};
+
+        data.forEach((item) => {
+          const key = `${item.item_name}|${item.brand}|${item.category}`;
+
+          if (!groupedItems[key]) {
+            groupedItems[key] = {
+              item_name: item.item_name,
+              brand: item.brand,
+              category: item.category,
+              total_quantity: 0,
+              // total_consumed: 0,
+            };
+          }
+
+          groupedItems[key].total_quantity += item.quantity || 0;
+          // groupedItems[key].total_consumed += item.consumed || 0;
+        });
+
+        console.log(groupedItems)
+
+        const table = $("#table").DataTable();
+        table.clear(); // Clear previous rows
+
+        Object.values(groupedItems).forEach((item, index) => {
+          const row = $(`
+            <tr>
+              <td>
+                <label class="checkboxs">
+                  <input type="checkbox" />
+                  <span class="checkmarks"></span>
+                </label>
+              </td>
+              <td class="no-export">${index + 1}</td>
+              <td>${item.item_name}</td>
+              <td>${item.category}</td>
+              <td>${item.brand}</td>
+              <td>${item.total_consumed}</td>
+              <td>${item.total_quantity}</td>
+              <td class="no-export">
+                <button
+                  class="me-3 btn-edit-user"
+                  data-bs-toggle="modal"
+                  data-bs-target="#userModal"
+                  onclick="fetchItem(${index + 1})"
+                  title="Edit"
+                  style="background: none; border: none; padding: 0; cursor: pointer;"
+                >
+                  <img src="assets/img/icons/edit.svg" alt="Edit" />
+                </button>
+                <button
+                  class="me-3 btn-delete-user confirm-text"
+                  data-user-id="${index + 1}"
+                  onclick="deleteItem(${index + 1})"
+                  title="Delete"
+                  style="background: none; border: none; padding: 0; cursor: pointer;"
+                >
+                  <img src="assets/img/icons/delete.svg" alt="Delete" />
+                </button>
+              </td>
+            </tr>
+          `);
+
+          table.row.add(row).draw();
+        });
+      }
+
+      fetchGroupedItems();
+    </script> -->
+
+    <script type="module">
+      import supabase from "./assets/js/supabase.js";
+
+      async function fetchAndCompareItems() {
+        // 1. Fetch item stock
+        const { data: itemData, error: itemError } = await supabase
+          .from("Item")
+          .select("item_name, brand, category, quantity");
+
+        // 2. Fetch only issued items with status 'consumed'
+        const { data: issuedData, error: issuedError } = await supabase
+          .from("issued item")
+          .select("item_name, brand, category, quantity, status")
+          .eq("status", "consumable");
+
+        if (itemError || issuedError) {
+          console.error("Fetch error:", itemError || issuedError);
+          return;
+        }
+
+        // 3. Group item quantities by key
+        const itemMap = {};
+        itemData.forEach((item) => {
+          const key = `${item.item_name}|${item.brand}|${item.category}`;
+          if (!itemMap[key]) {
+            itemMap[key] = {
+              item_name: item.item_name,
+              brand: item.brand,
+              category: item.category,
+              total_quantity: 0,
+            };
+          }
+          itemMap[key].total_quantity += item.quantity || 0;
+        });
+
+        // 4. Group consumed issued items
+        const issuedMap = {};
+        issuedData.forEach((item) => {
+          const key = `${item.item_name}|${item.brand}|${item.category}`;
+          if (!issuedMap[key]) {
+            issuedMap[key] = 0;
+          }
+          issuedMap[key] += item.quantity || 0;
+        });
+
+        // 5. Merge results and compute available quantity
+        const result = [];
+        Object.keys(itemMap).forEach((key) => {
+          const { item_name, brand, category, total_quantity } = itemMap[key];
+          const consumed_quantity = issuedMap[key] || 0;
+          const available_quantity = total_quantity - consumed_quantity;
+
+          result.push({
+            item_name,
+            brand,
+            category,
+            available_quantity,
+            consumed_quantity,
+          });
+        });
+
+        // 6. Render to DataTable
+        const table = $("#table").DataTable();
+        table.clear();
+
+        result.forEach((item, index) => {
+          const row = $(`
+            <tr>
+              <td>
+                <label class="checkboxs">
+                  <input type="checkbox" />
+                  <span class="checkmarks"></span>
+                </label>
+              </td>
+              <td class="no-export">${index + 1}</td>
+              <td>${item.item_name}</td>
+              <td>${item.category}</td>
+              <td>${item.brand}</td>
+              <td>${item.consumed_quantity}</td>
+              <td>${item.available_quantity}</td>
+              <td class="no-export">
+                <button
+                  class="me-3 btn-edit-user"
+                  data-bs-toggle="modal"
+                  data-bs-target="#userModal"
+                  onclick="fetchItem(${index + 1})"
+                  title="Edit"
+                  style="background: none; border: none; padding: 0; cursor: pointer;"
+                >
+                  <img src="assets/img/icons/edit.svg" alt="Edit" />
+                </button>
+                <button
+                  class="me-3 btn-delete-user confirm-text"
+                  data-user-id="${index + 1}"
+                  onclick="deleteItem(${index + 1})"
+                  title="Delete"
+                  style="background: none; border: none; padding: 0; cursor: pointer;"
+                >
+                  <img src="assets/img/icons/delete.svg" alt="Delete" />
+                </button>
+              </td>
+            </tr>
+          `);
+
+          table.row.add(row).draw();
+        });
+      }
+
+      fetchAndCompareItems();
+    </script>
+
+
+    <!-- <script type="module">
+      import supabase from "./assets/js/supabase.js";
+
+      async function fetchItems() {
+        const { data, error } = await supabase.from("Item").select("*");
+
+        if (error) {
+          console.error("Fetch error:", error);
+          return;
+        }
+
+        const table = $("#table").DataTable(); // ensure table is initialized
+        data.forEach((item) => {
+          const row = $(`
+            <tr>
+              <td>
+                <label class="checkboxs">
+                  <input type="checkbox" />
+                  <span class="checkmarks"></span>
+                </label>
+              </td>
+              <td class="no-export">${item.id}</td>
+              <td>${item.item_name}</td>
+              <td>${item.category}</td>
+              <td>${item.brand}</td>
+              <td>${item.quantity}</td>
+              <td>${item.date}</td>
+              <td class="no-export">
+                <button
+                  class="me-3 btn-edit-user"
+                  data-bs-toggle="modal"
+                  data-bs-target="#userModal"
+                  onclick="fetchItem(${item.id})"
+                  title="Edit"
+                  style="background: none; border: none; padding: 0; cursor: pointer;"
+                >
+                  <img src="assets/img/icons/edit.svg" alt="Edit" />
+                </button>
+                <button
+                  class="me-3 btn-delete-user confirm-text"
+                  data-user-id="${item.id}"
+                  onclick="deleteItem(${item.id})"
+                  title="Delete"
+                  style="background: none; border: none; padding: 0; cursor: pointer;"
+                >
+                  <img src="assets/img/icons/delete.svg" alt="Delete" />
+                </button>
+              </td>
+            </tr>
+          `);
+
+          table.row.add(row).draw();
+          
+        });
+
+      }
+
+      fetchItems();
+    </script> -->
+
+    <!-- <script type="module">
+      import supabase from "./assets/js/supabase.js";
+    
+      async function fetchTask() {
+        const { data, error } = await supabase.from('Item').select('*');
+    
+        if (error) {
+          console.error('Fetch error:', error);
+          return;
+        }
+
+        const tbody = document.getElementById("inventoryreport-table-body");
+        tbody.innerHTML = ""; // Clear existing rows
+
+
+          const table = $("#table").DataTable(); // ensure table is initialized
+          data.forEach((item) => {
+            const row = $(`
+              <tr>
+                <td>
+                  <label class="checkboxs">
+                    <input type="checkbox" />
+                    <span class="checkmarks"></span>
+                  </label>
+                </td>
+                <td>${task.workers}</td>
+                <td>${task.date}</td>
+                <td>${task.title_of_work}</td>
+                <td>${task.status}</td>
+                <td>${task.description}</td>
+                <td class="no-export">
+                <button
+                  class="me-3 btn-edit-user"
+                  data-bs-toggle="modal" 
+                  data-bs-target="#userModal"
+                  onclick="fetchTask(${task.id})"
+                  title="Edit"
+                  style="background: none; border: none; padding: 0; cursor: pointer;"
+                >
+                  <img src="assets/img/icons/edit.svg" alt="Edit" />
+                </button>
+
+                <button 
+                  class="me-3 btn-delete-user confirm-text" 
+                  data-user-id="${task.id}" 
+                  onclick="deleteTask(${task.id})"
+                  title="Delete"
+                  style="background: none; border: none; padding: 0; cursor: pointer;"
+                >
+                  <img src="assets/img/icons/delete.svg" alt="Delete" />
+                </button>
+              </td>
+              </tr>
+            `);
+
+            table.row.add(row).draw();
+          });
+      }
+    
+      fetchTask();
+    </script> -->
+
+    <script
+      data-cfasync="false"
+      src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+
+    <script src="assets/js/feather.min.js"></script>
+
+    <script src="assets/js/jquery.slimscroll.min.js"></script>
+
+    <script src="assets/js/jquery.dataTables.min.js"></script>
+    <script src="assets/js/dataTables.bootstrap4.min.js"></script>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+    <script src="assets/plugins/select2/js/select2.min.js"></script>
+
+    <script src="assets/js/moment.min.js"></script>
+    <script src="assets/js/bootstrap-datetimepicker.min.js"></script>
+
+    <script src="assets/plugins/sweetalert/sweetalert2.all.min.js"></script>
+    <script src="assets/plugins/sweetalert/sweetalerts.min.js"></script>
+
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
